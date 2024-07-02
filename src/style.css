@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(149, 230, 230);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(45, 78, 115);
+    padding: 20px 0px 20px 0px;
+}
+
+.list{
+    background-color: aliceblue;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: dashed 1.5px rgb(45, 78, 115);
+    border-radius: 30px;
+}
+
+ul{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+li{
+    list-style-type: square;
+}
